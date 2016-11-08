@@ -3,11 +3,18 @@
 popbox components.
 
 ## Getting Started
-Install the module with: `npm install popbox`
+Install the module with: `npm install dukai/popbox`
 
 ```javascript
 var popbox = require('popbox');
-popbox.awesome(); // "awesome"
+
+popbox.confirm('your content', function(){
+   //confirm callback
+   //TODO: do something
+   return true;//auto close 
+});
+
+
 ```
 
 ## Documentation
